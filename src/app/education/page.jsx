@@ -22,15 +22,15 @@ const Education = () => {
             alt="NITK"
           />
         </div>
-        <div className="md:text-[1.5em] lg:w-5/6 w-4/5 lg:pl-0 pl-7 text:md font-semibold text-slate-500 flex flex-col">
-          <p>
+        <div className="md:text-[1.5em] text:md font-semibold text-slate-500 flex flex-col">
+          <p className="lg:w-fit lg:text-left text-center w-5/6 lg:mx-1 mx-auto">
             College: National Institute of Technology Karnataka (NITK) Surathkal
           </p>
-          <p> Course: Master of Computer Applications</p>
-          <p> CGPA: 8.73</p>
+          <p className="lg:w-fit lg:text-left text-center w-5/6 lg:mx-1 mx-auto"> Course: Master of Computer Applications</p>
+          <p className="lg:w-fit lg:text-left text-center w-5/6 lg:mx-1 mx-auto"> CGPA: 8.73</p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col lg:gap-14 gap-8 mx-auto mb-3 py-6 px-6 w-4/5 items-center justify-center border-2 rounded-md shadow-md transition-transform transform hover:scale-105 duration-400 ease-in-out">
+      <div className="flex lg:flex-row flex-col lg:gap-14 gap-8 mx-auto mb-3 py-6 px-6 w-4/5 items-center border-2 rounded-md shadow-md transition-transform transform hover:scale-105 duration-400 ease-in-out">
         <div className="relative h-40 w-60">
           <Image
             src="/du.jpg"
@@ -40,10 +40,10 @@ const Education = () => {
             alt="NITK"
           />
         </div>
-        <div className="md:text-[1.5em] lg:w-5/6 w-4/5 lg:pl-0 pl-7 text:md font-semibold text-slate-500 flex flex-col">
-          <p> College: Durg University</p>
-          <p> Course: Bachelor of Computer Applications</p>
-          <p> Percentage: 71.43%</p>
+        <div className="md:text-[1.5em] text:md font-semibold text-slate-500 flex flex-col">
+          <p className="lg:w-fit lg:text-left text-center w-5/6 lg:mx-1 mx-auto"> College: Durg University</p>
+          <p className="lg:w-fit lg:text-left text-center w-5/6 lg:mx-1 mx-auto"> Course: Bachelor of Computer Applications</p>
+          <p className="lg:w-fit lg:text-left text-center w-5/6 lg:mx-1 mx-auto"> Percentage: 71.43%</p>
         </div>
       </div>
     </div>
@@ -51,3 +51,5 @@ const Education = () => {
 };
 
 export default Education;
+
+// <div className="md:text-[1.5em] lg:w-5/6 w-4/5 lg:pl-0 pl-7 text:md font-semibold text-slate-500 flex flex-col">

@@ -27,9 +27,13 @@ export default function Home() {
             Coder, NITian
           </p>
           <div className="flex sm:flex-row flex-col items-center sm:gap-16 gap-10 mt-5">
-            <div className="text-xl font-normal px-5 py-2 bg-violet-600 text-white rounded-full">
+            <Link
+              target="_blank"
+              href="https://drive.google.com/file/d/1uCLILRH6jcK0E7wjkWaQTmkCJoqDlp1V/view?usp=sharing"
+              className="text-xl font-normal px-5 py-2 bg-violet-600 text-white rounded-full"
+            >
               Resume
-            </div>
+            </Link>
             <div className="flex gap-2">
               <Link
                 target="_blank"
@@ -105,13 +109,17 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto h-full flex flex-col gap-4 w-4/6 px-16 mt-14">
+      <div className="container mx-auto h-full flex flex-col gap-4 lg:w-4/6 w-full px-16 mt-14">
         <h1 className="text-xl w-fit font-semibold linkUnderline linkUnderlineBlack">
           About Me.
         </h1>
         <p className="text-lg text-slate-600">
-        I worked as an SDE Intern at Infoworks Data from January to June 2023. I completed my Master&#39;s
- from the National Institute of Technology Karnataka (NITK) Surathkal in 2023. Talking about my technical skills, I am proficient in Data Structures and Algorithms, OOPs, DBMS, SQL, etc. Additionally, I have expertise in languages such as C++, Java, and JavaScript.
+          I worked as an SDE Intern at Infoworks Data from January to June 2023.
+          I completed my Master&#39;s from the National Institute of Technology
+          Karnataka (NITK) Surathkal in 2023. Talking about my technical skills,
+          I am proficient in Data Structures and Algorithms, OOPs, DBMS, SQL,
+          etc. Additionally, I have expertise in languages such as C++, Java,
+          and JavaScript.
         </p>
         <p className="text-lg text-slate-600">
           👀 I am currently seeking a job opportunity.
