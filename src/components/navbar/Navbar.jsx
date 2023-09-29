@@ -99,7 +99,7 @@ const Navbar = () => {
             initial="closed"
             animate={isOpen ? "open" : "closed"}
             exit="closed"
-            className="lg:hidden absolute right-14 top-16 z-50 shadow-md flex flex-col gap-2 w-5/12 p-3 mx-3 bg-white text-indigo-500 rounded-md text-lg font-medium"
+            className="lg:hidden absolute right-14 top-16 z-50 shadow-md flex flex-col gap-2 w-5.6/12 p-3 mx-3 bg-white text-indigo-500 rounded-md text-lg font-medium"
           >
             <Link
               href="/"

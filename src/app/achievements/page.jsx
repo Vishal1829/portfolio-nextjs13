@@ -67,7 +67,7 @@ const Achievements = () => {
               </div>
             </div>
             <div className="flex gap-2 sm:flex-row flex-col items-center">
-              <Link href="https://leetcode.com/maclife/" target="_blank">
+              <Link href="https://www.hackerrank.com/Vishal1829?hr_r=1" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={30}
@@ -90,13 +90,13 @@ const Achievements = () => {
               </div>
             </div>
             <div className="flex gap-2 sm:flex-row flex-col items-center">
-              <Link href="#" target="_blank">
+              <Link href="https://drive.google.com/file/d/1bxwuX_0M74KuQsU2OMgOv6b8H9l53qMd/view?usp=sharing" target="_blank">
                 <Image
                   src="/nitklogo.png"
                   width={34}
                   height={44}
                   className="rounded-lg"
-                  alt="GeeksForGeeks"
+                  alt="NIMCET"
                 />
               </Link>
               <div className="text-[1.3em] flex sm:flex-row flex-col sm:gap-3 gap-1 font-semibold text-slate-500">
